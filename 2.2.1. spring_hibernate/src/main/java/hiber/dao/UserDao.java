@@ -10,5 +10,5 @@ public interface UserDao {
    void add(User user);
 
    List<User> listUsers();
-   User getUserFromCar(Car car);
+   User getUserByCar(Car car);
 }
